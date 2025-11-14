@@ -3,6 +3,8 @@ import 'task1_user_profile.dart';
 import 'task2_login_form.dart';
 import 'task3_action_buttons.dart';
 import 'task4_navigation/home_screen.dart';
+import 'task5_fade_animation.dart';
+import 'task6_listview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: Task6ListView(),
     );
   }
 }
