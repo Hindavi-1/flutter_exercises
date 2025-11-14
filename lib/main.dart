@@ -5,6 +5,7 @@ import 'task3_action_buttons.dart';
 import 'task4_navigation/home_screen.dart';
 import 'task5_fade_animation.dart';
 import 'task6_listview.dart';
+import 'task7_json_display.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Task6ListView(),
+      home: Task7JsonDisplay(),
     );
   }
 }
